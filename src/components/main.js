@@ -13,7 +13,7 @@ import Admin from './admin';
 // Change /my-app to / when moving from gitpages
 const Main = () => (
   <Switch>
-    <Route exact path="/my-app" component={LandingPage} />
+    <Route exact path="/my-app/" component={LandingPage} />
     <Route path="/sorting" component={Sorting} />
     <Route path="/graphs" component={PathFindingVisualizer} />
     <Route path="/contact" component={Contact} />
